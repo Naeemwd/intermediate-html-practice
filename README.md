@@ -11,8 +11,9 @@
     - visit font awesome icons website
     - copy the icon link and paste in the file (where you want icons)
     - go to font awesome cdn website and copy the link tag 
-    - paste the copied link in the head 
-  Google font:-
+    - paste the copied link in the head  
+    ---
+    - Google font:-
     - visit google font website
     - copy embed code and paste in the head
     - select body tag and paste the font family link
@@ -20,7 +21,7 @@
     - rowspan
     - colspan
 4. advanced form
-    - input tag all types (22 types: text, email, password, tel, url, number, range, date, time, datetime-local, month, week, checkbox, radio, submit, reset, button, file, image, hidden, serach, color.)
+    - input tag all types (22 types: text, email, password, tel, url, number, range, date, time, datetime-local, month, week, checkbox, radio, submit, reset, button, file, image, hidden, search, color.)
     - select tag (<select id="" name=""> <option value="">  </option> </select>)
 5. send form data to your email using Formspree API
     - visit Formspree website and sign up
