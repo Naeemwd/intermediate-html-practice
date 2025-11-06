@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="keywords" content="sign up, create account by @naeem" />
+    <meta name="description" content="for creating new account must sign up " />
+    <meta name="author" content="Naeem Chowdhury Rehad" />
+    <title>Class 02</title>
+    
+    <!-- font awesome icons cnd link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+    <style>
+        body{
+            background-color: rgb(203, 206, 206);
+            font-family: "Open Sans", sans-serif;
+        }
+
+    </style>
+
+</head>
+<body>
+    <header>
+        
+    </header>
+
+    <main>
+        <section>
+            <!-- 1.advanced table: using rowspan and colspan -->
+            <table border="1" cellpadding="10" cellspacing="0">
+                <caption>Blood Glucose Reference Table by Health Condition</caption>
+                <thead>
+                    <tr>
+                        <th rowspan="2">State of Health</th>
+                        <th colspan="2">Fasting Value</th>
+                        <th>After Eating</th>
+                    </tr>
+                    <tr>
+                        <th>Minimum</th>
+                        <th>Maximum</th>
+                        <th>2 hours after eating</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Healthy</td>
+                        <td>70</td>
+                        <td>100</td>
+                        <td>Less than 140</td>
+                    </tr>
+                    <tr>
+                        <td>Pre-Diabetes</td>
+                        <td>101</td>
+                        <td>126</td>
+                        <td>140 to 200</td>
+                    </tr>
+                    <tr>
+                        <td>Diabetes</td>
+                        <td>More than 126</td>
+                        <td>N/A</td>
+                        <td>More than 200</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+
+
+        </section> 
+
+        <br />
+
+        <section>
+            <!-- 2.advanced table: using rowspan and colspan -->
+            <table border="1" cellspacing="0" cellpadding="5">
+                <caption>Student Enrolment Details</caption>
+                <thead>
+                    <tr>
+                        <th colspan="2">Name</th>
+                        <th>Class</th>
+                        <th>School</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <td rowspan="2">Mahina</td>
+                    <td rowspan="2">Gupta</td>
+                    <td>11</td>
+                    <td rowspan="2">MVM School</td>
+                    </tr>
+                    <tr>
+                        <td>A</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Sri</td>
+                        <td rowspan="2">Krisna</td>
+                        <td>3</td>
+                        <td rowspan="2">LMS School</td>
+                    </tr>
+                    <tr>
+                        <td>B</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Shivika</td>
+                        <td rowspan="2">Goyal</td>
+                        <td>5</td>
+                        <td rowspan="2">SCPM School</td>
+                    </tr>
+                    <tr>
+                        <td>A</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </section>
+
+        <br />
+        
+
+            <section>
+            <!-- 3.advanced table: using rowspan and colspan -->
+            <table border="1" cellspacing="0" cellpadding="5">
+                <thead>
+                    <tr>
+                        <th colspan="4">Electronic Device Brands</th>
+                    </tr>
+                    <tr>
+                        <th colspan="2">Computers & Peripherals</th>
+                        <th colspan="2">Mobiles & Smart Devices</th>
+                    </tr>
+                    <tr>
+                        <th>Brands</th>
+                        <th>Model numbers/Series</th>
+                        <th>Brands</th>
+                        <th>Model numbers/Series</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Apple</td>
+                        <td>MacBook pro, iMac</td>
+                        <td>Samsung</td>
+                        <td>Galaxy S, Galaxy Z</td>
+                    </tr>
+                    <tr>
+                        <td>Dell</td>
+                        <td>XPS, Inspiron</td>
+                        <td>Apple</td>
+                        <td>iphone 15. Apple watch</td>
+                    </tr>
+                    <tr>
+                        <td>HP</td>
+                        <td>Pavilion, Envy</td>
+                        <td>Google</td>
+                        <td>Pixel 8, Pixel Fold</td>
+                    </tr>
+                    <tr>
+                        <td>Lenovo</td>
+                        <td>ThinkPad, Yoga</td>
+                        <td>Sony</td>
+                        <td>Xperia 1, PlayStation 5</td>
+                    </tr>
+                    <tr>
+                        <td>Microsoft</td>
+                        <td>Surface Pro, Surface Laptop</td>
+                        <td>Xiaomi</td>
+                        <td>Mi 13, Redmi Note</td>
+                    </tr>
+                    <tr>
+                        <td>Asus</td>
+                        <td>ROG, Zenbook</td>
+                        <td>OnePlus</td>
+                        <td>OnePlus 11, OnePlus Pad</td>
+                    </tr>
+                    <tr>
+                        <td>Acer</td>
+                        <td>Predator, Swift</td>
+                        <td>Oppo</td>
+                        <td>Find X, Reno</td>
+                    </tr>
+                    <tr>
+                        <td>Logitech</td>
+                        <td>MX Master, G Pro</td>
+                        <td>Huawei</td>
+                        <td>Mate 60, P60</td>
+                    </tr>
+                    <tr>
+                        <td>Razer</td>
+                        <td>Blade, DeathAdder</td>
+                        <td>LG</td>
+                        <td>Velvet, Wing</td>
+                    </tr>
+                    <tr>
+                        <td>Corsair</td>
+                        <td>Vengeance, K100</td>
+                        <td>Motorola</td>
+                        <td>Edge, Moto G</td>
+                    </tr>
+                </tbody>
+            </table>
+            </section>
+
+        <br />
+
+            
+            <section>
+                <h3>Sign up form</h3>
+                <!-- advanced form -->
+                <form>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" required placeholder="Naeem Chowdhury">
+                
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="email@example.com" required>
+
+                <label for="password">Password:</label>
+                <input type="password" minlength="8" maxlength="14" name="password" id="password" placeholder="More than 8 character" required>
+
+                <br />
+                <br />
+
+                <label for="number">Mobile:</label>
+                <input type="tel" name="number" id="number" pattern="[0-9]{4}-[0-9]{4}-[0-9]{3}" placeholder="0175 2574 313">
+
+                <label for="website">Website:</label>
+                <input type="url" name="website" id="website" pattern="http?://.+" placeholder="https://www.example.com">
+
+                <label for="age">Age</label>
+                <input type="number" name="age" id="age" mim="16" max="30" placeholder="Enter you age">
+                
+                <br />
+                <br />
+
+                <label for="username">Username:</label>
+                <input type="text" name="username" id="username" pattern="[A-Za-z-0-9]{5,15}" placeholder="Username5">
+
+                <label for="gender">Gender:</label>
+                
+                <input type="radio" name="gender-male" id="gender-male">
+                <label for="gender-male">Male</label>
+                
+                <input type="radio" name="gender-female" id="gender-female">
+                <label for="gender-female">Felame</label>
+                
+                <input type="radio" name="gender-other" id="gender-other">
+                <label for="gender-other">Other</label>
+                
+                
+                
+                
+
+
+
+
+                <br />
+                <br />
+
+                <label for="birthday">Date of Birth</label>
+                <input type="date" name="birthday" id="birthday" readonly value="2002-12-14">
+
+                <label for="inquaryTime">Choose a time:</label>
+                <input type="time" name="inquaryTime" id="inquaryTime" readonly value="08:00">
+
+                <label for="dateTime">Choose date & time</label>
+                <input type="datetime-local" name="dateTime" id="dateTime" readonly value="2004-09-25T08:00">
+
+                <br />
+                <br />
+
+                <label for="month">Select a month</label>
+                <input type="month" name="month" id="month">
+
+                <label for="week">Select a week</label>
+                <input disabled type="week" name="week" id="week">
+
+                    <br />
+                    <br />
+
+                <label for="country">Select your country</label>
+                <select name="country" id="country">
+                    <option value="" disabled selected>---------Select a country---------</option>
+                    <option>Bangladesh</option>
+                    <option>India</option>
+                    <option>Japan</option>
+                    <option>Nepal</option>
+                    <option>England</option>
+                    <option>USA</option>
+                    <option>Italy</option>
+
+                </select>
+
+
+
+
+                
+
+
+                <P>Choose subject:</P>
+                <label for="cse">CSE</label>
+                <input type="checkbox" name="cse" id="cse">
+
+                <label for="eee">EEE</label>
+                <input type="checkbox" name="eee" id="eee">
+
+                <label for="civil">Civil</label>
+                <input type="checkbox" name="civil" id="civil">
+
+                <label for="law">Law</label>
+                <input checked type="checkbox" name="law" id="law">
+
+                <label for="mbbs">Mbbs</label>
+                <input type="checkbox" name="mbbs" id="mbbs">
+
+                <p>Select a method:</p>
+                <input type="radio" name="online" id="online">
+                <label for="online">Online</label>
+
+                <input type="radio" name="offline" id="offline">
+                <label for="offline">Offline</label>
+
+                <br />
+                <br />
+                
+                <label for="files">Choose file:</label>
+                <input type="file" name="files" id="files" accept="image/*, .pdf" />
+
+                <label for="searchbox">Search</label>
+                <input type="search" name="inquary" id="searchbox">
+                <button type="submit">Go</button>
+                
+                <br />
+                <br />
+
+                <input type="button" value="Click me">
+
+                <br />
+                <br />
+
+                <label for="feadback">Give you feadback here:</label>
+                <input type="range" name="feadback" id="feadback" min="0" max="30" value="10" >
+
+                <label for="color">Pick a color:</label>
+                <input type="color" name="color" id="color">
+
+
+
+                <br />
+                <br />
+
+                <button type="submit">Submit</button>
+                <button type="reset">Clear</button>
+
+
+
+                    
+            </form>
+            </section>
+
+        <br />
+
+        <section>
+            <!-- 1. advanced form  -->
+            <h2>Student Registration Form</h2>
+            <form>
+                <label for="roll">Roll:</label>
+                <input type="text" name="roll" id="roll">
+                <br />
+                <br />
+
+                <label for="name">Student Name:</label>
+                <input type="text" name="name" id="name">
+                <br />
+                <br />
+
+                <label for="fname">Father's Name:</label>
+                <input type="text" name="fname" id="fname">
+                <br />
+                <br />
+
+                <label for="birthday">Date of Birth:</label>
+                <input type="date" name="birthday" id="birthday">
+                <br />
+                <br />
+
+                <label for="phoneNo">Mobile no:</label>
+                <input type="tel" name="phoneNo" id="phoneNo">
+                <br />
+                <br />
+
+                <label for="email">Email id:</label>
+                <input type="email" name="email" id="email">
+                <br />
+                <br />
+
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password">
+
+                <br />
+                <br />
+
+                <label for="gender">Gender :</label>
+
+                <input type="radio" name="gender-male" id="gender-male">
+                <label for="gender-male">Male</label>
+
+                <input type="radio" name="gender-female" id="gender-female">
+                <label for="gender-female">Female</label>
+
+                <input type="radio" name="gender-other" id="gender-other">
+                <label for="gender-other">Other</label>
+
+                <br />
+                <br />
+
+                <label for="department">Departments:</label>
+
+                <label for="cse">
+                    <input type="checkbox" name="cse" id="cse"> CSE
+                </label>
+                <label for="it">
+                    <input type="checkbox" name="it" id="it"> IT
+                </label>
+                <label for="ece">
+                    <input type="checkbox" name="ece" id="ece"> ECE
+                </label>
+                <label for="civil">
+                    <input type="checkbox" name="civil" id="civil"> Civil
+                </label>
+                <label for="mech">
+                    <input type="checkbox" name="mech" id="mech"> Mech
+                </label>
+
+                <br />
+                <br />
+
+                <label for="course">Course :</label>
+                <select name="course" id="course">
+                    <option value="" disabled selected>---------Choose a course---------</option>
+                    <option value="">Politis</option>
+                    <option value="">Computing</option>
+                    <option value="">Software and cloud</option>
+                    <option value="">Media management</option>
+                    <option value="">Technologi</option>
+                    <option value="">English</option>
+                </select>
+
+                <br />
+                <br />
+
+                <label for="image">Student photo :</label>
+                <input type="file" name="image" id="image" accept="image/*">
+
+                <br />
+                <br />
+
+                <label for="city">City :</label>
+                <input type="text" name="city" id="city">
+
+                <br />
+                <br />
+
+                <label for="address">Address :</label>
+                <textarea name="address" id="address" cols="40" rows="5"></textarea>
+
+                <br />
+                <br />
+
+                <button type="submit">Register</button>
+
+
+            </form>
+
+
+
+
+
+        </section>
+
+        <br />
+
+        <section>
+            <!-- multimedia: video -->
+            <video width="400" controls muted >
+                <source src="./assets/video/intro.mp4" type="video/mp4">
+                your browser does not support this video.
+            </video>
+        </section>
+
+        <br />
+
+        <section>
+            <!-- multimedia: audio -->
+            <audio controls>
+                <source src="./assets/audio/audio.m4a" type="audio/m4a"> 
+                your beowser does not support this type of audio.
+            </audio>
+        </section>
+
+        <br />
+
+        <section>
+            <!-- youtube video -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/qbFP78rJdRQ?si=PpYG86-YgV1lEMm2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+
+            <br />
+            <br />
+            <!-- google map -->
+
+            <iframe title="home address" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14507.462936293403!2d91.66523333084741!3d24.628312097837973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37510e194aabbcbf%3A0x1afa79b79d3726f7!2sSherpur!5e0!3m2!1sen!2sbd!4v1762344047602!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+
+            <br />
+            <br />
+
+            <!-- my deployed webpage -->
+
+            <iframe src="https://naeemwd.github.io/html-project-2/three%20recipes/chicken-recipe.html" frameborder="0" title="a recipe webpage " width="1000" height="600">
+            </iframe>
+
+        </section>
+
+        <section>
+            <!-- html-5 elements (progress) -->
+            <h2>Skill Progress:</h2>
+            <label for="html">HTML</label>
+            <progress id="html" max="100" value="70">70%</progress>
+            <br />
+            <label for="css">CSS</label>
+            <progress id="css" max="100" value="20">20%</progress>
+            <br />
+            <label for="js">JavaScript</label>
+            <progress id="js" max="100" value="5">5%</progress>
+        </section>
+
+        <br />
+
+        <section>
+            <!-- html-5 elements (meter) -->
+            <label for="experience">Job Experience :</label>
+            <meter id ="experience" min="0" max="20" value="8">8 years job experience.</meter>
+        </section>
+    </main>
+    
+    <footer>
+        
+        <section>
+            <!-- font awesome icons -->
+            <h3>Social media</h3>
+            <a target="_blank" href="https://www.facebook.com/@NaeemChowdhuryRehad">
+                <i class="fa-brands fa-facebook"></i>
+                Facebook
+            </a>
+            
+            <a target="_blank" href="https://www.youtube.com/@NaeemChowdhuryRehad">
+                <i class="fa-brands fa-youtube"></i>
+                YouTube
+            </a>
+            <a target="_blank" href="https://www.github.com/naeemwd">
+                <i class="fa-brands fa-github"></i>
+                GitHub
+            </a>
+            <a target="_blank" href="https://www.instagram.com/@NaeemChowdhuryRehad">
+                <i class="fa-brands fa-instagram"></i>
+                Instagram
+            </a>            
+        </section>
+
+    </footer>
+</body>
+</html>
